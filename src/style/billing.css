@@ -1,0 +1,26 @@
+
+.billing__main{
+        font-size: 15px;
+        position: absolute;
+        width: 2000px;
+        height: 50px;
+        left: 20px;
+        top: -20px;
+        display: flex;
+        border-radius: 6px;
+        padding: 1px;
+        box-sizing:border-box;
+        flex-direction: row;
+        column-gap: 170px;
+        margin-top: 100px;
+        
+      
+}
+.billing__total{
+    margin-right: 20px;
+    margin-top: 200px;
+}
+.billing__total1{
+    font-size: 20px;
+    padding-left: 240px;
+}

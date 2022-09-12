@@ -1,0 +1,47 @@
+.radio{
+    vertical-align:baseline;
+    font-size:small;
+    color: black;
+    padding-right: 25px;
+
+
+}
+.but{
+
+    background-color: #007EFF;
+    border:#007EFF;
+    color: white;
+    padding: 5px 40px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    border-radius: 5px;
+
+  }
+
+  .generate__button{
+
+
+        background-color: blue;
+        border:#007EFF;
+        color: white;
+        width: 200px;
+        padding: 5px 40px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 8px;
+        margin-left: -200px;
+    
+      
+  }
+
+  .edit_link{
+    font-size: 20px;
+    margin-left: 700px;
+  }
+  .button_review{
+  
+  }

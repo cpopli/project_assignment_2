@@ -1,0 +1,97 @@
+.dropdown1 {
+    position: absolute;
+    width: 2000px;
+    height: 50px;
+    left: 7px;
+    top: -40px;
+    display: flex;
+    border-radius: 6px;
+    padding: 1px;
+    box-sizing:border-box;
+    flex-direction: row;
+    margin-top: 100px;
+    
+  }
+  .dropdown-text{
+    margin-top: 55px;
+    color: black;
+    font-size: 40px;
+    text-align:center;
+    padding-top: -10px;
+    padding-left: 20px;
+    -ms-flex-align: baseline;
+
+  }
+
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position:relative;
+    display:block;
+    left: 500px;
+    top: -10px;
+  }
+  .buttwid{
+    width: 150px;
+    text-align: left;
+    height: 30px;
+    border-color: #007EFF;
+    border: 1px solid #007EFF;
+    border-radius: 7px;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 147px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-size: 10px;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(219, 219, 219);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+
+  }
+  
+  .buttwid1{
+    margin-top: 260px;
+    margin-left: -470px;
+    width: 150px;
+    text-align: left;
+    height: 30px;
+    border-color: #007EFF;
+    border: 1px solid #007EFF;
+    border-radius: 7px;
+  }
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    min-width: 147px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+  }
+   /* Links inside the dropdown */
+   .dropdown-content1 a {
+    font-size: 10px;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }

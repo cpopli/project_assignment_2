@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Cards from './components/cards';
+import Title from './components/title';
+import RegionComboBox from './components/dropdown';
+import CostEstimater from './components/cost-estimater';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Top_list from './components/top_list';
+import Images from './component7/images';
+import { useContext } from 'react';
+import Instances from './component2/instances';
+import Radio from './components/radio';
 function App() {
+
+  function parentAlert(data)
+  {
+    const final_summary_p=data;
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={ <div><Title /> <RegionComboBox />
+      <CostEstimater /> 
+    <Cards alert={parentAlert} /></div>}></Route>
+        <Route path="/review&launch" element={
+        <div><Title /> <CostEstimater />
+          <Images />
+      </div>}>
+        </Route>
+        <Route path="/instances" element={
+        <div><Title /> <CostEstimater /><Instances />
+      </div>}>
+        </Route>
+        </Routes></BrowserRouter>
   );
 }
 
