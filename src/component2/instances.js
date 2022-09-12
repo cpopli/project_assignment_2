@@ -15,10 +15,10 @@ const Instances = () => {
     <Top_list />
     </div>
     <div className='flex-top2-container'>
-      <div className='menu1 '>General Purpose</div>
-      <div className='menu1'>CPU Optimised</div>
-      <div className='menu1'>Storage Optimised</div>
-      <div className='menu1'>Network Optimised</div>
+      <button className='menu1 ' >General Purpose</button>
+      <button className='menu1'>CPU Optimised</button>
+      <button className='menu1'>Storage Optimised</button>
+      <button className='menu1'>Network Optimised</button>
     </div>
     <h6 className='dropdown2 config__title'>Create Configuration</h6>
 
@@ -35,7 +35,7 @@ const Instances = () => {
 <div class="dropdown button2">
   <button class="dropbtn">Memory</button>
   <div class="dropdown-content">
-    <a>256MB</a>
+    <a value >256MB</a>
     <a>512MB</a>
     <a>1GB</a>
     <a>4GB</a>

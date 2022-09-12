@@ -24,7 +24,7 @@ function App() {
       <CostEstimater /> 
     <Cards alert={parentAlert} /></div>}></Route>
         <Route path="/review&launch" element={
-        <div><Title /> <CostEstimater />
+        <div><Title /> 
           <Images />
       </div>}>
         </Route>

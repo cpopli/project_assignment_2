@@ -4,13 +4,15 @@ import { RadioContext } from '../components/radio'
 import Top_list from '../components/top_list'
 import '../style/cards.css'
 import '../style/radio.css'
+import CostEstimater from '../components/cost-estimater'
 
 const Images = () => {
+  const image_prices=[243.61,300,338.77,200.22]
 
 return(<div>    
     <h7 className='dropdown2 summary__title'>Review & launch</h7>
   <div className='flex-container'>
-<Top_list />
+<Top_list /><CostEstimater price={image_prices[0]} />
 
 <div className='title1'> Images
  <a href='/' className='edit_link'>Edit</a></div>
